@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Provider } from 'react-redux';
+import { Container } from '@mui/material';
+import CardList from './components/CardList';
+import store from './redux/store';
+import backgroundImage from './components/feather-3010848.jpg';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // Set up the Redux store provider
+    <Provider store={store}>
+      {/* Use a container with a background image */}
+      <div style={{ backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),url(${backgroundImage})`, minHeight: '100vh', backgroundSize: '100% 100%' }}>
+        <Container maxWidth="lg" sx={{ paddingTop: '32px' }}>
+          {/* Render the CardList component */}
+          <CardList />
+        </Container>
+      </div>
+    </Provider>
   );
 }
 
