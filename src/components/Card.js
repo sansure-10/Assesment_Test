@@ -102,8 +102,8 @@ const Card = ({ card, onDelete }) => {
           {/* Card description */}
           <div>
             <Typography variant="body2" className="card-description">
-              {description.length > 15
-                ? `${description.slice(0, 15)}...`
+              {description.length > 30
+                ? `${description.slice(0, 30)}...`
                 : description}
             </Typography>
           </div>
@@ -122,7 +122,7 @@ const Card = ({ card, onDelete }) => {
             {/* Edit button */}
             <IconButton
               className="edit-button"
-              sx={{ color: "white" }}
+              sx={{ color: "grey"}}
               onClick={handleEdit}
             >
               <EditIcon />
@@ -130,7 +130,7 @@ const Card = ({ card, onDelete }) => {
             {/* Delete button */}
             <IconButton
               className="delete-button"
-              sx={{ color: "white" }}
+              sx={{ color: "grey" }}
               onClick={() => onDelete(id)}
             >
               <DeleteIcon />
@@ -175,9 +175,7 @@ const Card = ({ card, onDelete }) => {
               fontFamily: "Montserrat, sans-serif",
             }}
           >
-            {description.length > 15
-              ? `${description.slice(0, 15)}...`
-              : description}
+            {description}
           </Typography>
 
           {/* Card duration */}

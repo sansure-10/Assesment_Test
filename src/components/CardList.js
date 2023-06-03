@@ -33,7 +33,7 @@ const CardList = () => {
       {
         id: 1,
         title: 'Pulimurugan',
-        description: 'Mohanlal Movie',
+        description: 'Murugan Protect the villagers from deadly tiger attacks.But a drug dealer takes advantage ofhis innocence and frameshim in a crime he never commited.',
         duration: 190,
         genre: 'Action',
         image: image2
@@ -41,7 +41,7 @@ const CardList = () => {
       {
         id: 2,
         title: 'BheeshmaParvam',
-        description: 'Malayalam Movie',
+        description: 'Michael,the middle child of the anjooty family,is the captain of ship.Trouble starts when youngsters of the family turn against him.',
         duration: 175,
         genre: 'Action',
         image: image4
@@ -49,7 +49,7 @@ const CardList = () => {
       {
         id: 3,
         title: 'Drishyam',
-        description: 'Mohanlal Movie',
+        description: 'A fathe love knows no bounds!.A simple cable operator hatches an elaborate plan to protect his family from the law when his doctor commits a grave crime.',
         duration: 160,
         genre: 'Thriller',
         image: image1
@@ -57,7 +57,7 @@ const CardList = () => {
       {
         id: 4,
         title: '2018',
-        description: 'Tovino Movie',
+        description: 'People from all walks of life face catastrophic consequences during devastating floods in 2018. The people of Kerala work together to survive the calamity.',
         duration: 120,
         genre: 'Drama',
         image: image3
