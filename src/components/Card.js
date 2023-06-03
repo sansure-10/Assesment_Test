@@ -31,7 +31,6 @@ const Card = ({ card, onDelete }) => {
   };
 
   const handleEditSubmit = (updatedCard) => {
-    console.log("Updated Card:", updatedCard);
     setEditedCard(updatedCard);
     setIsEditModalOpen(false);
   };
