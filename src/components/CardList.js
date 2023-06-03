@@ -48,7 +48,7 @@ const CardList = () => {
       },
       {
         id: 3,
-        title: 'Drishyam',
+        title: 'Drishyam 2',
         description: 'A fathe love knows no bounds!.A simple cable operator hatches an elaborate plan to protect his family from the law when his doctor commits a grave crime.',
         duration: 160,
         genre: 'Thriller',
