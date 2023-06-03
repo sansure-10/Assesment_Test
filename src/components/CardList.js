@@ -5,7 +5,7 @@ import { addCard, deleteCard } from '../redux/actions';
 import Card from './Card';
 import CardModal from './CardModal';
 import CardForm from './CardForm';
-import image1 from './drishyam.jpg'
+import image1 from './drishyam-2-review.jpg'
 import image2 from './pulimurugan.jpg'
 import image3 from './2018.jpg'
 import image4 from './BEESHMAPARVAM.png'
